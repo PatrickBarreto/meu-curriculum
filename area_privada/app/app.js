@@ -35,10 +35,7 @@ icon_menu_abrir_resp.addEventListener("touchstart", abrir_menu_resp)
 /*Fechar o menu responsivo*/
 icon_menu_fechar_resp.addEventListener("click", fechar_menu_resp)
 icon_menu_fechar_resp.addEventListener("touchstart", fechar_menu_resp)
-/*for (let item of lista_indice){
-    item.addEventListener("click", fechar_menu_resp)
-    item.addEventListener("touchstart", fechar_menu_resp)
-}*/
+
 
 /* Abrir itens da faq
 Ao clicar no elemento dt, o próximo elemento dd deve ser apresentado ao usuário */

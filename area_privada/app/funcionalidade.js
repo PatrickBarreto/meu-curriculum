@@ -142,13 +142,20 @@ function apresenta_conteudo (e){
 
 function abrir_fechar_faq (e) {
     
-    let item = (e.target.classList.contains("tema-faq")) ? e.target : e.path[1];
+    let item = e.target;
+    let itemNode = item.nodeName;
+
+    if (itemNode == "P" || itemNode == "IMG"){
+        item = item.parentElement;
+;    }
     let descricao = item.nextElementSibling;
+    
+    console.log(descricao, "descricao");
 
     if (descricao.classList.contains("abrir")){
         descricao.classList.remove("abrir");
         descricao.style.maxHeight = "0vh";
-        descricao.style.transition= "max-height 1s";
+        item.style.transition= "max-height 1s";
         item.style.backgroundColor= "rgb(255, 255, 255)";
         item.style.borderBottomLeftRadius= "10px";
         item.style.borderBottomRightRadius= "10px";
