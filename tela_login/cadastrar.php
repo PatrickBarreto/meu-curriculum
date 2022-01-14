@@ -50,7 +50,8 @@
 <body id="cadastrar">
 
     <section id="corpo-form">
-        <h1> Cadastrar Usuário </h1>
+        <h1> Cadastro </h1>
+        <p> Pode usar dados fictícios</p>
         <form method="POST" action="cadastrar.php">
             <input name="nome" type="text" placeholder="Nome Completo" maxlength="30"></input>
             <input name="email" type="email" placeholder="Email" maxlength="50"></input>
@@ -59,6 +60,7 @@
             <input name="confirma-senha" type="password" value="Confirmar Senha" maxlength="8"></input>
             <input type="submit" value="Cadastrar"></input>
         </form>
+            <a href="./index.php"><button id="retornar-login"> Login </button> </a>
 
     </section>
 </body>

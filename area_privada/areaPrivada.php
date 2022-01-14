@@ -113,11 +113,13 @@
                         </dt>
                         <dd class="descricao-faq">
                             <p>
-                                Tecnologia sempre despertou um certo interesse e curiosidade em mim. Mas iniciei minha vida profissional aos 21 anos como corretor de imóveis com intuito de aprender vendas,
-                                naquele momento de vida vender era algo mais necessário para mim.
-                                <br>
+                                A tecnologia sempre despertou curiosidade em mim... mas iniciei minha vida profissional aos 21 anos 
+                                como corretor de imóveis com intuito de aprender vendas,naquele momento de vida vender era algo mais
+                                necessário.
+                            </p>
+                            <p>
                                 Um ano depois abri minha própria imobiliária, empresa que gerenciei desde então e que motivou minha
-                                 entrada no mundo ativo da programação.
+                                 entrada no mundo da programação.
                             </p>
                         </dd>
                     </div>
@@ -135,12 +137,8 @@
                             </p>
                             <p>
                                 Após mudanças no negócio, foi necessário aprender a vender por Landing Pages, e em seguida saber como anunciar. 
-                                Foi quando precisei aprender Google Ads e por consequencia, Google Tag Manager, Google Analytics.
+                                Foi quando precisei aprender Google Ads e por consequência, Google Tag Manager, Google Analytics e outras tecnologias.
                             </p> 
-                            <p> 
-                                Criei um site estático com Landing Pages na Klick Pages, era um péssimo site, mas serviu ao momento, e nele eu tive meus primeiros
-                                  contatos com código fonte.
-                            </p>
                         </dd>
                     </div>
 
@@ -151,11 +149,12 @@
                         </dt>
                         <dd class="descricao-faq">
                             <p>
-                                Em 2020, trocando de CMS comecei a mexer mais no HTML e no CSS do código fonte. Para anúncios mais profissionais comecei
+                                Em 2020, trocando de CMS onde criava o site eu comecei a mexer mais no HTML e no CSS do código fonte. Para anúncios mais profissionais comecei
                                  a entender os Eventos WEB através do Google Tag Manager. 
-                                 <br>
-                                Por vontade de aprender mais e mais, aproveitei a Black Friday passada, e assinei o DevMedia. Comecei a estudar programação e não parei
-                                de praticar e estudar desde então.
+                            </p>
+                            <p>
+                                Por vontade de alcançar a liberdade que a programação possui, aproveitei a Black Friday de 2020 e assinei o DevMedia. Comecei a estudar e não parei
+                                desde então.
                             </p>
                         </dd>
                     </div>
@@ -167,25 +166,14 @@
                         </dt>
                         <dd class="descricao-faq">
                             <p>
-                                Comecei pela base, lógica de programação e algoritmos, tema que muito me interessa pelo fluxo lógico de ação. 
+                                Comecei pela base, lógica de programação e algoritmos, tema que muito me interessa.
                             </p>
                             <p>
                                 Em seguida estudei o Javascript e criei mini-sistemas sem interface, rodando no terminal pelo Node.js, inclusive, um muito útil
                                  que fiz foi o de prever o lucro líquido estimado, de acordo com o valor investido no Marketing.
                             </p>
                             <p>
-                                Em seguida estudei o HTML e o CSS.
-                                <br>
-                                Depois estudei:
-                                <ul>
-                                    <li>Versionamento com GIT</li>
-                                    <li>Arquitetura REST</li>
-                                    <li>Básico de ReactJS</li>
-                                    <li>Linux básico, uso bastante o terminal do computador no dia a dia</li>
-                                </ul> 
-                            </p>
-                            <p>
-                                Entre outros conhecimentos que vou adquirindo com a prática.
+                                Em seguida estudei o HTML, CSS, PHP, entre outras tecnologias que estão descritas na aba cursos.
                             </p>
                         </dd>
                     </div>
@@ -197,8 +185,8 @@
                         </dt>
                         <dd class="descricao-faq">
                             <p>
-                                Atualmente estou desenvolvendo o site da Immobe, com simuladores, integrações de API, entre outras funcionalidade, sem nenhum CMS ou framework,
-                                 com intuito de treinar ao máximo meu conhecimento base para depois buscar aprofundar em frameworks facilitadores.
+                                Atualmente estou cursando Analise e Desenvolvimento de Sistemas, trabalhando no site da Immobe com simuladores, integrações de API, área de clientes, área de parceiros,
+                                 entre outras funcionalidade com intuito de treinar ao máximo meu conhecimento e evoluir cada dia mais!
                             </p>
                         </dd>
                     </div>

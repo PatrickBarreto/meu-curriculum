@@ -149,8 +149,6 @@ function abrir_fechar_faq (e) {
         item = item.parentElement;
 ;    }
     let descricao = item.nextElementSibling;
-    
-    console.log(descricao, "descricao");
 
     if (descricao.classList.contains("abrir")){
         descricao.classList.remove("abrir");

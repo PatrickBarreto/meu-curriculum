@@ -6,12 +6,26 @@ border: 0px;
 padding: 0px;
 }
 
+main{
+    width:100vw;
+    height: 100vh;
+}
+
 #mensagem{
     background-color: white;
     height: 50px;
     width: 150px;
     position:fixed;
 
+}
+
+#retornar-login{
+    margin:5px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgb(113, 113, 113);
+    border: 1px solid rgb(33, 33, 33, 0.5);
 }
 
 #acessar{

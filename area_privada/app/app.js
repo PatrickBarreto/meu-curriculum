@@ -43,4 +43,10 @@ for (let item of tema_faq) {
     item.addEventListener("click", abrir_fechar_faq)
 }
 
+window.onresize = ()=>{
+    if(window.screen.width > 780){
+        abrir_menu_resp();
+    }
+}
+
 

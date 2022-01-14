@@ -262,6 +262,7 @@ main{
 
 #sobre-mim dd p{
     line-height: 33px;
+    padding: 0px 50px 20px 20px;
 }
 
 #sobre-mim dd ul{
