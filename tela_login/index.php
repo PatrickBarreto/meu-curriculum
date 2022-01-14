@@ -1,13 +1,15 @@
 <?php
     require_once '../classes/usuarios.php';
     $usuario = new Usuario();
+    require_once '../classes/privado.php';
+    $host = new host;
 ?>
 <?php
         if(isset($_POST["email"])){
             $email= addslashes($_POST["email"]);
             $senha= addslashes($_POST["senha"]);
             if(!empty($email) && !empty($senha)){
-                $usuario->conectar("Cadastro", "localhost", "root", "Pa211030!");          
+                $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha());          
                if($usuario->msgErro == ""){
                 echo $usuario->msgErro;
                     if($usuario->logar($email, $senha)){
@@ -20,7 +22,7 @@
                 echo "Preencha todos os campos";
             }
         }
-    ?>
+?>
 
 
 <!DOCTYPE html>

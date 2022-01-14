@@ -1,0 +1,354 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+ 
+/*############# FONTES E LETRAS ###############*/
+h1{
+    margin: 0px 0px 30px 0px;
+    padding: 30px;
+    line-height: 30px;
+    font-size: 3em;
+    font-weight: 800px;
+    font-family: 'Work Sans', sans-serif;
+
+    
+}
+
+h2{
+    margin: 20px 0px;
+    padding:20px;
+    line-height: 40px;
+    font-size: 2em;
+    font-weight: 800px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h3{
+    margin: 20px 0px;
+    line-height: 25px;
+    font-size: 1,5em;
+    font-weight: 800px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+li{
+    margin: 20px 0px;
+    line-height: 25px;
+    font-size: 1em;
+    font-family: 'Work Sans', sans-serif;
+}
+
+p{
+    margin: 10px 0px;
+    padding:10px;
+    line-height: 25px;
+    font-size: 1em;
+    font-family: 'Work Sans', sans-serif;
+}
+
+ol li{
+    margin: 0px 0px 20px 50px;
+}
+
+/*######################################*/
+
+
+/*############# GERAL PÁGINA ###############*/
+
+body{
+    margin: 0;
+    height:100vh;
+    width: 100vw;
+    padding:0px;
+    display:flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-x: hidden;
+
+    
+}
+
+main{
+    width: 100vw;
+
+}
+
+/*######################################*/
+
+
+.responsivo{
+    position:fixed;
+    display:none;
+}
+    #fechar-menu{
+        left: 50px;
+        top: 0px;
+        margin: 20px;
+        cursor: pointer;
+    }
+    #abrir-menu{
+        z-index: 0;
+        margin: 10px;
+        cursor: pointer;
+        background-color: white;
+        border-radius: 50%;
+    }
+
+
+/*############# ESPECIFICO PÁGINA ###############*/
+
+#indice{
+    width: 200px;
+    height: 100vh;
+    position:fixed;
+    z-index:9999;
+    background-color:rgb(79, 79, 79);
+    overflow-y:auto;
+    padding: 0 0 0 30px;
+}
+
+
+#indice ul{
+    list-style:none;
+    position:relative;
+    float:center;
+    top: 10vh;
+    bottom: 50px;
+    padding: 20px 0;
+    overflow-x: hidden;
+}
+
+#indice ul li{
+    margin: 20px 0px;
+    padding: 10px 0px;
+    color:white;
+    cursor:pointer;
+}
+
+.abrir{
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 10px 0px 10px 30px;
+    color:black !important;
+    padding: 10px 0 10px 30px !important;
+    margin: 30px 0px;
+}
+
+
+#indice small{
+    position:absolute;
+    bottom: 5px;
+    left: 75px;
+}
+
+
+#identificacao .link-social{
+    text-decoration: none;
+}
+
+.logo-social{
+    width:30px;
+    height:30px;
+    text-decoration:none;
+    margin: 10px
+}
+
+#identificacao ul{
+    list-style: none;
+}
+
+
+
+#conteudo{
+    width: 70vw;
+    position:relative;
+    float:right;
+    top:0px;
+    right:0px;
+    overflow-y: scroll;
+    padding: 0 16vw 7vh 0;
+}
+
+
+#apresentacao{
+    position:relative;
+    text-align: center;
+    float: center;
+}
+
+#apresentacao li{
+    list-style: none;
+}
+
+
+#sobre-mim{
+    display:flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow:column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+
+#sobre-mim div{
+    position:relative;
+    float:center;
+    width: 80%;
+    min-width: 40vw;
+    margin: 10px 10px;
+    border-radius:10px;
+    box-shadow: 1px 1px 10px rgb(200, 200, 200);
+    
+}
+
+#sobre-mim dt{
+    width: 100%;
+    height: 60px;
+    text-align:start;    
+    padding: 5px 0px 0px 20px;
+    border: 1px solid rgb(241, 241, 241);
+    border-bottom:0px;
+    cursor:pointer;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#sobre-mim dt p{
+   position:relative;
+   float:left;
+   font-size:1.07em;
+   font-weight:900px;
+   margin: 0px;
+   padding:12px 0px 0px 0px;
+   
+} 
+
+#sobre-mim dt img{
+    position:relative;
+    float:right;
+    right: 10px;
+    top: 5px;
+    width:12px;
+    height:12px;
+}
+#sobre-mim dt:hover img{
+    top: 30px;
+    transition: top 1s ease-out;
+}
+
+#sobre-mim dd{
+    width: 90%;
+    text-align:justify;
+    cursor:pointer;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-height: 0px;
+    visibility: visible;
+    overflow:auto;
+    padding: 0px 20px;
+    width: 100%;
+}
+
+#sobre-mim dd p{
+    line-height: 33px;
+}
+
+#sobre-mim dd ul{
+    list-style: none;
+    padding: 0 0 0 30px;
+}
+
+#sobre-mim dt:hover{
+    background-color: rgb(242, 242, 242);
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+}
+
+
+
+#objetivo{
+    display:none;
+}
+
+#formacao{
+    display:none;
+}
+
+#cursos{
+    display:none;
+}
+
+
+#experiencia{
+    display:none;
+    
+}
+
+#competencias{
+    display:none;
+}
+
+#portfolio{
+    display:none;
+}
+
+
+
+
+#contato{
+   
+    background-color: rgb(200, 200, 200);
+    position:fixed;
+    width: 140px;
+    height: 50px;
+    right: 20px;
+    bottom:20px;
+    overflow: hidden;
+    box-shadow: 0px -2px 3px rgb(234, 234, 234);
+    border-radius: 10px;
+
+}
+#contato div{
+    
+    position:relative;
+    left:5px;
+    margin: 5px 5px;
+    width: 100%;
+    cursor:pointer;
+    text-decoration:none;
+    font-weight: 900px;
+    color: black;
+    
+}
+
+#icon-cta1{
+    position:relative;  
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    
+}
+#icon-cta2{
+    position:relative; 
+    width: 20px;
+    height: 20px;
+}
+#icon-cta3{
+    position:relative;
+    top: 2px;
+    width: 23px;
+    height: 23px;
+    
+}

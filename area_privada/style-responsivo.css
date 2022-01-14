@@ -1,0 +1,85 @@
+@media (max-width: 780px){
+    .responsivo{
+        display:block;
+    }
+
+        main{
+            padding: 0px;
+            position:static;
+            overflow-x: hidden;
+            width:100%;
+            border-bottom-left-radius: 25px;
+        }
+        body{
+            padding: 0px;
+        }
+    
+        header{
+            display:none;
+        }
+    
+        #super-h1 h1{
+            position: relative;
+            font-size: 2.5em;
+            left:0px;
+            float: right;
+        }
+    
+    
+        #fechar-menu{
+            width: 50px;
+            height: 50px;
+            padding:10px;
+            left: 110px;
+            margin: 20px;
+        }
+        #abrir-menu{
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+            z-index: 9999;
+            left: 1px;
+            margin: 20px;
+        }
+    
+        #objetivo p{
+            padding: 0px 0px;
+        }
+    
+       
+        
+        #sobre-mim{
+            width: 100%;
+        }
+    
+        #sobre-mim div{
+            position:relative;
+            left:2px;
+            width: 100%;
+            margin: 10px 10px;
+        }
+    
+        #sobre-mim dt p{
+            width:90%;
+            padding: 10px 0 10px 0;
+        }
+        
+        section{
+            padding: 30px;
+        }
+    
+        #conteudo{
+            width: 100%;
+            top: 30px;
+            padding: 0px 20px 0px 20px;
+        }
+    
+        #contato{
+            width: 150px;
+        }
+        
+        #apresentacao div{
+            text-align: start;
+        }
+    }
+    
