@@ -11,7 +11,8 @@
     require_once '../classes/privado.php';
     $host = new host;
 
-    $usuario->conectar("immobe65_Cadastro", "localhost", "immobe65_patrick", $host->getSenha());
+    // USAR EM LOCALHOST $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha());
+    /* USAR NO HOST*/ $usuario->conectar("immobe65_Cadastro", "localhost", "immobe65_patrick", $host->getSenha());
 ?>
 <?php
     $id= $_SESSION["id_usuario"];

@@ -13,7 +13,8 @@
         $senha = addslashes($_POST["senha"]);
         $confSenha = addslashes($_POST["confirma-senha"]);
         if(!empty($nome) && !empty($email) && !empty($telefone) && !empty($senha) && !empty($confSenha)){ //Verifica se não está vazio.            
-          $usuario->conectar("immobe65_Cadastro", "localhost", "immobe65_patrick", $host->getSenha());      
+        // USAR EM LOCALHOST $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha());
+        /* USAR NO HOST*/  $usuario->conectar("immobe65_Cadastro", "localhost", "immobe65_patrick", $host->getSenha());      
             if($usuario->msgErro == ""){
                 if($senha == $confSenha){
                     if($usuario->cadastrar($nome, $telefone, $email, $senha)){
