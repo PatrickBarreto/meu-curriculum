@@ -1,0 +1,109 @@
+[15-Jan-2022 13:56:00 America/Fortaleza] PHP Warning:  require_once(./classes/usuarios.php): failed to open stream: No such file or directory in /home2/immobe65/querotambem.com/curriculum-patrick/index.php on line 2
+[15-Jan-2022 13:56:00 America/Fortaleza] PHP Fatal error:  require_once(): Failed opening required './classes/usuarios.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/immobe65/querotambem.com/curriculum-patrick/index.php on line 2
+[15-Jan-2022 13:56:03 America/Fortaleza] PHP Warning:  require_once(./classes/usuarios.php): failed to open stream: No such file or directory in /home2/immobe65/querotambem.com/curriculum-patrick/index.php on line 2
+[15-Jan-2022 13:56:03 America/Fortaleza] PHP Fatal error:  require_once(): Failed opening required './classes/usuarios.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/immobe65/querotambem.com/curriculum-patrick/index.php on line 2
+[15-Jan-2022 13:56:04 America/Fortaleza] PHP Warning:  require_once(./classes/usuarios.php): failed to open stream: No such file or directory in /home2/immobe65/querotambem.com/curriculum-patrick/index.php on line 2
+[15-Jan-2022 13:56:04 America/Fortaleza] PHP Fatal error:  require_once(): Failed opening required './classes/usuarios.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/immobe65/querotambem.com/curriculum-patrick/index.php on line 2
+[15-Jan-2022 13:56:09 America/Fortaleza] PHP Warning:  require_once(./classes/usuarios.php): failed to open stream: No such file or directory in /home2/immobe65/querotambem.com/curriculum-patrick/index.php on line 2
+[15-Jan-2022 13:56:09 America/Fortaleza] PHP Fatal error:  require_once(): Failed opening required './classes/usuarios.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/immobe65/querotambem.com/curriculum-patrick/index.php on line 2
+[15-Jan-2022 13:56:45 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/curriculum-patrick/classes/usuarios.php:45
+Stack trace:
+#0 /home2/immobe65/querotambem.com/curriculum-patrick/index.php(15): Usuario->logar('nelsu@gmail.com', '123')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/curriculum-patrick/classes/usuarios.php on line 45
+[15-Jan-2022 13:57:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/curriculum-patrick/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/curriculum-patrick/cadastrar.php(19): Usuario->cadastrar('Nelsu', '229928', 'z@gmail.com', '123')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/curriculum-patrick/classes/usuarios.php on line 22
+[15-Jan-2022 13:57:40 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/curriculum-patrick/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/curriculum-patrick/cadastrar.php(19): Usuario->cadastrar('abc', '2121', 'abc@gmail.com', '123')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/curriculum-patrick/classes/usuarios.php on line 22
+[15-Jan-2022 14:05:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/novo-curriculum/cadastrar.php(19): Usuario->cadastrar('patrick', '22123', 'contato@gmail.c...', '123')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php on line 22
+[15-Jan-2022 14:06:16 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/novo-curriculum/cadastrar.php(19): Usuario->cadastrar('ishauishauish', '87289372', 'contato@gmail.c...', '123')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php on line 22
+[15-Jan-2022 14:09:02 America/Fortaleza] PHP Warning:  require_once(/classes/usuarios.php): failed to open stream: No such file or directory in /home2/immobe65/querotambem.com/novo-curriculum/index.php on line 2
+[15-Jan-2022 14:09:02 America/Fortaleza] PHP Fatal error:  require_once(): Failed opening required '/classes/usuarios.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/immobe65/querotambem.com/novo-curriculum/index.php on line 2
+[15-Jan-2022 14:09:08 America/Fortaleza] PHP Warning:  require_once(/classes/usuarios.php): failed to open stream: No such file or directory in /home2/immobe65/querotambem.com/novo-curriculum/index.php on line 2
+[15-Jan-2022 14:09:08 America/Fortaleza] PHP Fatal error:  require_once(): Failed opening required '/classes/usuarios.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/immobe65/querotambem.com/novo-curriculum/index.php on line 2
+[16-Jan-2022 00:04:57 America/Fortaleza] PHP Warning:  require_once(/classes/usuarios.php): failed to open stream: No such file or directory in /home2/immobe65/querotambem.com/novo-curriculum/index.php on line 2
+[16-Jan-2022 00:04:57 America/Fortaleza] PHP Fatal error:  require_once(): Failed opening required '/classes/usuarios.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/immobe65/querotambem.com/novo-curriculum/index.php on line 2
+[17-Jan-2022 10:34:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/novo-curriculum/cadastrar.php(19): Usuario->cadastrar('Patrick', '222222', 'contato@gmail.c...', '123')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php on line 22
+[17-Jan-2022 10:39:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/novo-curriculum/cadastrar.php(19): Usuario->cadastrar('Patrick', '122', 'contato@gmail.c...', '123')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php on line 22
+[17-Jan-2022 10:43:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/novo-curriculum/cadastrar.php(19): Usuario->cadastrar('saijsaios', '123', 'abc@gmail.com', '123')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php on line 22
+[17-Jan-2022 10:44:06 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/novo-curriculum/cadastrar.php(19): Usuario->cadastrar('iosjaoisjaoij', '123', 'abc@gmail.com', '123')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php on line 22
+[17-Jan-2022 10:44:55 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/novo-curriculum/cadastrar.php(19): Usuario->cadastrar('uihsuihduish', '123', 'abc@gmail.com', '123')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php on line 22
+[17-Jan-2022 10:46:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/novo-curriculum/cadastrar.php(19): Usuario->cadastrar('ushauishasha', '123', 'abc@gmail.com', '123')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php on line 22
+[17-Jan-2022 10:48:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/novo-curriculum/cadastrar.php(19): Usuario->cadastrar('Patrick', '2222', 'contato@gmail.c...', '123')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php on line 22
+[17-Jan-2022 10:56:08 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/novo-curriculum/cadastrar.php(19): Usuario->cadastrar('pa', '2222', 'pa@gmail.com', '2110')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php on line 22
+[17-Jan-2022 11:00:19 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/novo-curriculum/cadastrar.php(19): Usuario->cadastrar('pa', '222', 'pa@gmail.com', '123')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php on line 22
+[17-Jan-2022 16:19:52 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/novo-curriculum/cadastrar.php(19): Usuario->cadastrar('Patrick', '1223', 'contato@immobe....', '123')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php on line 22
+[17-Jan-2022 16:21:06 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/novo-curriculum/cadastrar.php(19): Usuario->cadastrar('Luc vieira', '7919484845', 'kdoewjfe@gmail....', '@B1n0xd9')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php on line 22
+[17-Jan-2022 16:30:21 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/novo-curriculum/cadastrar.php(19): Usuario->cadastrar('dsdsd', '3232', 'sasa@gmail.com', '12')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php on line 22
+[17-Jan-2022 16:33:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/novo-curriculum/cadastrar.php(19): Usuario->cadastrar('ewewqeqw', '22222', 'ab@gmail.com', '123')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php on line 22
+[17-Jan-2022 16:33:53 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php:22
+Stack trace:
+#0 /home2/immobe65/querotambem.com/novo-curriculum/cadastrar.php(19): Usuario->cadastrar('jsiojiojsa', '123', 'a@gmail.com', '123')
+#1 {main}
+  thrown in /home2/immobe65/querotambem.com/novo-curriculum/classes/usuarios.php on line 22

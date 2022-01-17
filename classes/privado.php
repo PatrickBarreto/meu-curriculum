@@ -1,6 +1,6 @@
 <?php 
     Class host{
-        private $senha = "Pa211030!";
+        private $senha = "Host2110!";
     
         public function getSenha(){
             return $this->senha;
