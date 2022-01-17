@@ -1,0 +1,92 @@
+*{
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0px;
+border: 0px;
+padding: 0px;
+}
+
+main{
+    width:100vw;
+    height: 100vh;
+}
+
+#mensagem{
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    position:fixed;
+
+}
+
+#retornar-login{
+    margin:5px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgb(113, 113, 113);
+    border: 1px solid rgb(33, 33, 33, 0.5);
+}
+
+#acessar{
+    background-image:url("https://s3-sa-east-1.amazonaws.com/s3-r2t/Sincomercio/Images/5b0ec87178099.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+#cadastrar{
+    background-image:url("http://discadorinteligente.com.br/wp-content/uploads/2015/12/Plano-de-fundo-discaodr-inteligente.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+section{
+    margin: 10px;
+}
+
+#corpo-form{
+    width: 450px;
+    height: 200px;
+    margin:33vh auto;
+    color:white;
+    text-align: center;
+}
+
+form{
+    position:relative;
+    float: center;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+input{
+    display:block;
+    margin:5px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgb(113, 113, 113);
+    border: 1px solid rgb(33, 33, 33, 0.5);
+}
+input[type=submit]{
+    background-color:rgb(251, 49, 49);
+    color:white;
+}
+
+input[type=submit]:hover{
+    background-color:rgb(249, 23, 23);
+
+}
+
+form a{
+    font-weight:900;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}  
+
+form a:hover{
+    text-decoration: underline;
+}
