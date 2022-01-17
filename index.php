@@ -9,7 +9,8 @@
             $email= addslashes($_POST["email"]);
             $senha= addslashes($_POST["senha"]);
             if(!empty($email) && !empty($senha)){
-                $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha());          
+                // USAR EM LOCALHOST $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha());
+                /*USAR NO HOST*/ $usuario->conectar("immobe65_Cadastro", "localhost", "immobe65_patrick", $host->getSenha());
                if($usuario->msgErro == ""){
                 echo $usuario->msgErro;
                     if($usuario->logar($email, $senha)){

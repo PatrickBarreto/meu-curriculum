@@ -2,7 +2,7 @@
     require_once './classes/usuarios.php';
     $usuario = new Usuario();
     require_once './classes/privado.php';
-    $host = new host;
+    $host = new host();
 ?>
 <?php
     //Só pra saber se alguém clicou no botão
@@ -13,7 +13,8 @@
         $senha = addslashes($_POST["senha"]);
         $confSenha = addslashes($_POST["confirma-senha"]);
         if(!empty($nome) && !empty($email) && !empty($telefone) && !empty($senha) && !empty($confSenha)){ //Verifica se não está vazio.            
-          $usuario->conectar("CADASTRO", "localhost", "root", $host->getSenha());      
+        // USAR EM LOCALHOST $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha());
+        /* USAR NO HOST*/  $usuario->conectar("immobe65_Cadastro", "localhost", "immobe65_patrick", $host->getSenha());      
             if($usuario->msgErro == ""){
                 if($senha == $confSenha){
                     if($usuario->cadastrar($nome, $telefone, $email, $senha)){

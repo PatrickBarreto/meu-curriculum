@@ -1,7 +1,7 @@
 <?php 
-    require_once '../classes/usuarios.php';
+    require_once './classes/usuarios.php';
     $usuario = new Usuario();
-    require_once '../classes/privado.php';
+    require_once './classes/privado.php';
     $host = new host;
 ?>
 <?php
@@ -17,7 +17,7 @@
             if($usuario->msgErro == ""){
                 if($senha == $confSenha){
                     if($usuario->cadastrar($nome, $telefone, $email, $senha)){
-                        header("location: ../tela_login/index.php");
+                        header("location: ./index.php");
                         echo "Cadastrado com sucesso";
                     }else{
                         echo "Email já cadastrado";
