@@ -9,14 +9,11 @@
     $usuario = new Usuario();
 
     require_once '../classes/privado.php';
-    $host = new host;
+    $host = new host();
 
-<<<<<<< HEAD
-    $usuario->conectar("CADASTRO", "localhost", "root", "Pa211030!");
-=======
-    // USAR EM LOCALHOST $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha());
-    /* USAR NO HOST*/ $usuario->conectar("immobe65_Cadastro", "localhost", "immobe65_patrick", $host->getSenha());
->>>>>>> master-producao
+    /*USAR EM LOCALHOST*/ $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha("localhost"));
+    //* USAR NO HOST $usuario->conectar("immobe65_Cadastro", "localhost", "immobe65_patrick", $host->getSenha("host"));
+
 ?>
 <?php
     $id= $_SESSION["id_usuario"];

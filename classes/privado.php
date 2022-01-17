@@ -5,9 +5,9 @@
     
         public function getSenha($tipoHost){
             if ($tipoHost == "localhost"){
-                return $this->senha;    
+                return $this->senhaLocalHost;    
             }else{
-                return $this->senha;
+                return $this->senhaHost;
             }
         }
     }
