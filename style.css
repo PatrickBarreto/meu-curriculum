@@ -90,3 +90,14 @@ form a{
 form a:hover{
     text-decoration: underline;
 }
+
+#msg-erro{
+    background-color:white;
+    width: 50vw;
+    height:50px;
+    text-align:center;
+    padding: 15px;
+    position: absolute;
+    bottom: 30px;
+    left:26%;
+}
