@@ -9,20 +9,28 @@
             $email= addslashes($_POST["email"]);
             $senha= addslashes($_POST["senha"]);
             if(!empty($email) && !empty($senha)){
-                //*USAR EM LOCALHOST $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha("localhost"));
-                /*USAR NO HOST*/ $usuario->conectar("immobe65_Cadastro", "localhost", "immobe65_patrick", $host->getSenha("host"));
-               if($usuario->msgErro == ""){
-                echo $usuario->msgErro;
-                    if($usuario->logar($email, $senha)){
-                        header("location: ./area_privada/curriculum.php");
-                    }else{
-                        echo "E-mail ou senha inválidos";
-                    }
-                }    
+                /*USAR EM LOCALHOST*/ $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha("localhost"));
+                //* USAR NO HOST $usuario->conectar("immobe65_Cadastro", "localhost", "immobe65_patrick", $host->getSenha("host"));
+                if(!$usuario->msgErro == ""){
+                    echo $usuario->msgErro;
+                }else if($usuario->logar($email, $senha)){
+                    header("location: ./area_privada/curriculum.php");
+                }else{
+                    ?>
+                        <div id="msg-erro">
+                            <p><?php echo "E-mail ou senha inválidos";?></p>
+                        </div>
+                    <?php
+                }
             }else{
-                echo "Preencha todos os campos";
+                ?>
+                    <div id="msg-erro">
+                        <?php echo "Preencha todos os campos"; ?>
+                    </div>
+                <?php
             }
         }
+        
 ?>
 
 
@@ -45,15 +53,5 @@
         </form>
     </section>
 </body>
-
-
-<!--Ordem de criação dos arquivos
-    Tela de login
-    Tela de cadastro
-    Banco de dados
-    Classes
-    Atribuir as funções das classes nas páginas
-
--->
 
 </html>

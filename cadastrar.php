@@ -12,25 +12,42 @@
         $telefone = addslashes($_POST["telefone"]);
         $senha = addslashes($_POST["senha"]);
         $confSenha = addslashes($_POST["confirma-senha"]);
+        //
         if(!empty($nome) && !empty($email) && !empty($telefone) && !empty($senha) && !empty($confSenha)){ //Verifica se não está vazio.            
-        //USAR EM LOCALHOST $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha("localhost"));
-        /*USAR NO HOST*/ $usuario->conectar("immobe65_Cadastro", "localhost", "immobe65_patrick", $host->getSenha("host"));      
+            /*USAR EM LOCALHOST*/ $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha("localhost"));
+            //* USAR NO HOST $usuario->conectar("immobe65_Cadastro", "localhost", "immobe65_patrick", $host->getSenha("host"));
             if($usuario->msgErro == ""){
                 if($senha == $confSenha){
                     if($usuario->cadastrar($nome, $telefone, $email, $senha)){
                         header("location: ./index.php");
-                        echo "Cadastrado com sucesso";
                     }else{
-                        echo "Email já cadastrado";
+                        ?> 
+                            <div id="msg-erro">
+                                <p><?php echo "Email já cadastrado";?></p>
+                            </div>
+                        <?php
                     }
                 }else{
-                    echo "Senhas não coincidem";
+                    ?> 
+                        <div id="msg-erro">
+                            <p><?php echo "Senhas não coincidem";?></p>
+                        </div>
+                    <?php
                 }
             }else{
-                echo "Erro". $usuario->msgErro;
+                ?> 
+                    <div id="msg-erro">
+                        <p><?php echo "Erro". $usuario->msgErro;?></p>
+                    </div>
+                <?php
             }
         }else{
-            echo "Preencha todos os campos";
+            ?> 
+                <div id="msg-erro">
+                    <p><?php echo "Preencha todos os campos";?></p>
+                </div>
+            <?php
+
         } 
     }
 ?>
@@ -44,7 +61,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style.css" rel="stylesheet">
-    <title>Login</title>
+    <title>Cadastrar</title>
 </head>
 
 
@@ -58,7 +75,7 @@
             <input name="email" type="email" placeholder="Email" maxlength="50"></input>
             <input name="telefone" type="text" placeholder="Telefone" maxlength="11"></input>
             <input name="senha" type="password" placeholder="Senha" maxlength="8"></input>
-            <input name="confirma-senha" type="password" value="Confirmar Senha" maxlength="8"></input>
+            <input name="confirma-senha" type="password" placeholder="Confirmar Senha" maxlength="8"></input>
             <input type="submit" value="Cadastrar"></input>
         </form>
             <a href="./index.php"><button id="retornar-login"> Login </button> </a>
