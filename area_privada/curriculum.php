@@ -129,7 +129,7 @@
                         
                         <div>
                             <dt class="tema-faq">
-                                <p>Minha entrada na programação</p>
+                                <p>Minha entrada na tecnologia</p>
                                 <img class="seta-baixo"src="img/seta-baixo.png"/>
                             </dt>
                             <dd class="descricao-faq">
@@ -147,13 +147,13 @@
 
                         <div>
                             <dt class="tema-faq">
-                                <p>Porque comecei a me aprofundar na programação</p>
+                                <p>Porque resolvi me aprofundar na programação</p>
                                 <img class="seta-baixo"src="img/seta-baixo.png"/>
                             </dt>
                             <dd class="descricao-faq">
                                 <p>
                                     Em 2020, trocando de CMS onde criava o site eu comecei a mexer mais no HTML e no CSS do código fonte. Para anúncios mais profissionais comecei
-                                    a entender os Eventos WEB através do Google Tag Manager. 
+                                    a entender mais a fundo os eventos WEB através do Google Tag Manager. 
                                 </p>
                                 <p>
                                     Por vontade de alcançar a liberdade que a programação possui, aproveitei a Black Friday de 2020 e assinei o DevMedia. Comecei a estudar e não parei
@@ -528,5 +528,5 @@
 
 <?php
     session_unset($_SESSION["id_usuario"]);
-    session_destroy();
+//    session_destroy();
 ?>
