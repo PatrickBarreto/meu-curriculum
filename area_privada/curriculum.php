@@ -12,7 +12,7 @@
     $host = new host();
 
     //USAR EM LOCALHOST $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha("localhost"));
-    /* USAR NO HOST*/ $usuario->conectar("immobe65_Cadastro", "localhost", "immobe65_patrick", $host->getSenha("host"));
+    /*USAR NO HOST*/ $usuario->conectar("immobe65_Cadastro", "localhost", "immobe65_patrick", $host->getSenha("host"));
                 
 
 ?>
@@ -161,7 +161,7 @@
                                 </p>
                             </dd>
                         </div>
-
+ 
                         <div>
                             <dt class="tema-faq">
                                 <p>Minha trilha na programação</p>
@@ -308,6 +308,9 @@
                             </li>
                             <li>
                                 Javascript  - <a href="https://www.devmedia.com.br/certificado/tecnologia/javascript/patrick-125"> Certificado </a>
+                            </li>
+                            <li>
+                                React Js  - <a href="https://www.devmedia.com.br/certificado/tecnologia/react/patrick-125"> Certificado </a>
                             </li>
                             <li>
                                 HTML 5 - <a href="https://www.devmedia.com.br/certificado/tecnologia/html/patrick-125"> Certificado </a>
