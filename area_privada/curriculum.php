@@ -11,7 +11,7 @@
     require_once '../classes/privado.php';
     $host = new host();
 
-    //USAR EM LOCALHOST $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha("localhost"));
+    ///USAR EM LOCALHOST $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha("localhost"));
     /*USAR NO HOST*/ $usuario->conectar("immobe65_Cadastro", "localhost", "immobe65_patrick", $host->getSenha("host"));
                 
 
@@ -227,9 +227,8 @@
                             </li>
 
                             <li id="site-immobe">
-                                <a href="https://querotambem.com/portfolio/immobe/corban/consorcio/imovel" target="_blank"> Site Immobe </a>
+                                <a href="https://querotambem.com/portfolio/immobe?pagina=quem-somos" target="_blank"> Site Immobe </a>
                                 <br>
-                                <small>Obs: Ainda está em desenvolvimento. Navegue pelo rodapé se estiver de um celular ou tablet.</small>
                             </li>
 
                             <li id="estimador-ROI">
