@@ -1,7 +1,7 @@
 <?php 
     Class host{
-        private $senhaHost = "Host2110!";
-        private $senhaLocalHost = "Pa211030!";
+        private $senhaHost = "xxx";
+        private $senhaLocalHost = "xxx";
     
         public function getSenha($tipoHost){
             if ($tipoHost == "localhost"){
