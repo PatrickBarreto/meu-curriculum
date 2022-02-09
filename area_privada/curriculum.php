@@ -11,10 +11,9 @@
     require_once '../classes/privado.php';
     $host = new host();
 
-    ///USAR EM LOCALHOST $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha("localhost"));
+    //USAR EM LOCALHOST $usuario->conectar("Cadastro", "localhost", "root", $host->getSenha("localhost"));
     /*USAR NO HOST*/ $usuario->conectar("immobe65_Cadastro", "localhost", "immobe65_patrick", $host->getSenha("host"));
                 
-
 ?>
 <?php
     $id= $_SESSION["id_usuario"];
@@ -229,6 +228,18 @@
                             <li id="site-immobe">
                                 <a href="https://querotambem.com/portfolio/immobe?pagina=quem-somos" target="_blank"> Site Immobe </a>
                                 <br>
+                                <div>
+                                    <a href="https://github.com/PatrickBarreto/immobe" target="_blank"> Link do código </a>
+                                </div>
+                            </li>
+
+                            <li id="loja-carros-react">
+                                <a href="https://patrickbarreto.github.io/projeto-react/" target="_blank"> Loja de carro em React </a>
+                                <br>
+                                <div>
+                                    <a href="https://github.com/PatrickBarreto/projeto-react/tree/master" target="_blank"> Link do código </a>
+                                </div>
+                                
                             </li>
 
                             <li id="estimador-ROI">
